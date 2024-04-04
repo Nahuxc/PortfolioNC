@@ -39,6 +39,10 @@ body{
         height: 110vh;
     }
 
+    .box-technology-content__icon{
+        width: 100%;
+    }
+
     .navbar-content{
         position: fixed;
         top: 100px;

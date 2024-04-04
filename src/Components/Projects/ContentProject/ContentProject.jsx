@@ -22,7 +22,7 @@ const projects = [
       "description": "Maquetado Desarrollado con el FrameWork SASS de CSS, Demuestra conocimientos en el desarrollo de diseño web y algunas funcionalidades con JS.",
       "url": "https://nahuxc.github.io/Book-Store-cursos/",
       "img":"../../../../public/img/Book-Store-Courses-Home.png",
-      "tecnologies" : ["HTML", "CSS", "JS", "SASS"],
+      "technology" : ["HTML", "CSS", "JS", "SASS"],
       "categorias": "Desarrollo Web"
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     "description": "Trabajo Freelancer Registro de Usuarios y Contacto, se utilizo Php y MySql para almacenar los usuarios que se registren en la aplicacion.",
     "url": "https://asistentesinmobiliarios.com/",
     "img":"../../../../public/img/DV-Asistentes-Inmobiliarios.png",
-    "tecnologies" : ["HTML", "CSS", "JS", "PHP", "MySql"],
+    "technology" : ["HTML", "CSS", "JS", "PHP", "MySql"],
     "categorias": "Desarrollo Web"
   }
 ]
@@ -82,10 +82,10 @@ const ContentProject = () => {
                       </div>
                       <div className='box-card-content_texts'>
                         <div className='box-card-content_texts-icons'>
-                          <li className='card-icon'> {project.tecnologies[3] == "SASS" ? <FaSass color='#ff06ac' /> : ( project.tecnologies[3] == "PHP" ? ( <FaPhp color='#0280ff' /> ) : <FaReact color='#0280ff' /> )   } </li>
-                          <li className='card-icon'> {project.tecnologies[2] == "JS" ? <SiJavascript color='#b5a900' /> : ""}</li>
-                          <li className='card-icon'> {project.tecnologies[1] == "CSS" ? <FaCss3Alt color='#009dff' /> : ""}</li>
-                          <li className='card-icon'> {project.tecnologies[0] == "HTML" ? <FaHtml5 color='#ff430a' /> : ""}</li>
+                          <li className='card-icon'> {project.technology[3] == "SASS" ? <FaSass color='#ff06ac' /> : ( project.technology[3] == "PHP" ? ( <FaPhp color='#0280ff' /> ) : <FaReact color='#0280ff' /> )   } </li>
+                          <li className='card-icon'> {project.technology[2] == "JS" ? <SiJavascript color='#b5a900' /> : ""}</li>
+                          <li className='card-icon'> {project.technology[1] == "CSS" ? <FaCss3Alt color='#009dff' /> : ""}</li>
+                          <li className='card-icon'> {project.technology[0] == "HTML" ? <FaHtml5 color='#ff430a' /> : ""}</li>
                         </div>
                         <div>
                           <h2> {project.name} </h2>
