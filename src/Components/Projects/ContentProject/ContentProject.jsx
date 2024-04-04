@@ -15,7 +15,8 @@ import { AiOutlineGlobal } from "react-icons/ai";
 import { FaPhp } from "react-icons/fa";
 
 /* simulador de Api */
-const projects = [
+
+const projectsAPI = [
     {
       "id": 1,
       "name": "Book Store Cursos",
@@ -39,25 +40,27 @@ const projects = [
 
 const ContentProject = () => {
 
-    const [project, setProject] = useState([])
+  const [projects, setProjects] = useState([])
+  const [loading, setLoading] = useState(true)
 
-    const [loading, setLoading] = useState(true)
+
+  /* Api con localStorage */
+
+  useEffect(()=>{
+    localStorage.setItem("projects", JSON.stringify(projectsAPI))
+  }, [])
 
 
-    const apiProject = () =>{
-      /* simulador de tiempo de carga de la api */
-      setTimeout(() => {
-        const data = projects
-        setProject(data)
-        setLoading(false)
-      }, 500);
+  const getData = async ()=>{
+      const dataAPI = await JSON.parse(localStorage.getItem("projects"))
+      setLoading(false)
+      setProjects(dataAPI)
+      console.log(projects);
+  } 
 
-    }
-
-    useEffect(()=>{
-      apiProject()
-    }, [project])
-
+  useEffect(()=>{
+    getData()
+  }, [])
 
     /* loader */
     if(loading == true){
@@ -73,7 +76,7 @@ const ContentProject = () => {
         <div className='box-projects'>
             {
               /* map de la api */
-              project.map((project)=>{
+              projects.map((project)=>{
                 return (
                   <div key={project.id} className='box-card'>
                     <div className='box-card-content'>
