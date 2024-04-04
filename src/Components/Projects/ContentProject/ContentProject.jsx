@@ -80,7 +80,7 @@ const ContentProject = () => {
                   <div key={project.id} className='box-card'>
                     <div className='box-card-content'>
                       <div className='box-img'>
-                        <img src={`../../../../public/assets/img/${project.img}`} alt="imagen" />
+                        <img src={`../../../../assets/img/${project.img}`} alt="imagen" />
                       </div>
                       <div className='box-card-content_texts'>
                         <div className='box-card-content_texts-icons'>
