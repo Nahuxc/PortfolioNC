@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react'
 /* css */
 import "./ContentProject.css"
 
-
 /* icons */
 import { FaReact } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
@@ -22,7 +21,7 @@ const projectsAPI = [
       "name": "Book Store Cursos",
       "description": "Maquetado Desarrollado con el FrameWork SASS de CSS, Demuestra conocimientos en el desarrollo de diseño web y algunas funcionalidades con JS.",
       "url": "https://nahuxc.github.io/Book-Store-cursos/",
-      "img":"../../../../public/img/Book-Store-Courses-Home.png",
+      "img":"Book-Store-Courses-Home.png",
       "technology" : ["HTML", "CSS", "JS", "SASS"],
       "categorias": "Desarrollo Web"
   },
@@ -31,7 +30,7 @@ const projectsAPI = [
     "name": "Asistentes Inmobiliarios",
     "description": "Trabajo Freelancer Registro de Usuarios y Contacto, se utilizo Php y MySql para almacenar los usuarios que se registren en la aplicacion.",
     "url": "https://asistentesinmobiliarios.com/",
-    "img":"../../../../public/img/DV-Asistentes-Inmobiliarios.png",
+    "img":"DV-Asistentes-Inmobiliarios.png",
     "technology" : ["HTML", "CSS", "JS", "PHP", "MySql"],
     "categorias": "Desarrollo Web"
   }
@@ -55,8 +54,8 @@ const ContentProject = () => {
       const dataAPI = await JSON.parse(localStorage.getItem("projects"))
       setLoading(false)
       setProjects(dataAPI)
-      console.log(projects);
-  } 
+    } 
+    console.log(projects);
 
   useEffect(()=>{
     getData()
@@ -81,7 +80,7 @@ const ContentProject = () => {
                   <div key={project.id} className='box-card'>
                     <div className='box-card-content'>
                       <div className='box-img'>
-                        <img src={project.img} alt="imagen" />
+                        <img src={`../../../../public/assets/img/${project.img}`} alt="imagen" />
                       </div>
                       <div className='box-card-content_texts'>
                         <div className='box-card-content_texts-icons'>
