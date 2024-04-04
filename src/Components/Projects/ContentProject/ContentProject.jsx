@@ -42,20 +42,19 @@ const ContentProject = () => {
   const [projects, setProjects] = useState([])
   const [loading, setLoading] = useState(true)
 
-
-  /* Api con localStorage */
-
-  useEffect(()=>{
-    localStorage.setItem("projects", JSON.stringify(projectsAPI))
-  }, [])
-
-
   const getData = async ()=>{
       const dataAPI = await JSON.parse(localStorage.getItem("projects"))
       setLoading(false)
       setProjects(dataAPI)
     } 
-    console.log(projects);
+
+  /* Api con localStorage */
+
+  useEffect(()=>{
+    localStorage.setItem("projects", JSON.stringify(projectsAPI))
+  }, [projects])
+
+
 
   useEffect(()=>{
     getData()
@@ -80,7 +79,7 @@ const ContentProject = () => {
                   <div key={project.id} className='box-card'>
                     <div className='box-card-content'>
                       <div className='box-img'>
-                        <img src={`${project.img}`} alt="imagen" />
+                        <img src={project.img} alt="imagen" />
                       </div>
                       <div className='box-card-content_texts'>
                         <div className='box-card-content_texts-icons'>
