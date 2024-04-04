@@ -43,7 +43,7 @@ const Profile = () => {
                       <div className='profile-content__SecondBox-dataIcon'><FaLocationDot /></div>
                       <div>
                         <span className='profile-content__SecondBox-dataSpan'>Location</span>
-                        <p>Rafael Calzada, Bs As</p>
+                        <p>Bs As</p>
                       </div>
                     </div>
               </div>
