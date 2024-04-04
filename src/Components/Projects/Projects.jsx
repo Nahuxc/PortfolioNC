@@ -1,15 +1,15 @@
 import React from 'react'
+import ContentProject from './ContentProject/ContentProject'
+
 
 const Projects = () => {
   return (
     <div>
-        projects
-        {/* Titulo Portfolio | Projects */}
-
-        {/* filtrador por parametros all , websites React, Website Php */}
-
-        {/* contendor de todos los objetos / proyectos */}
-
+      <div>
+        <h2>Projects</h2>
+      </div>
+      {/* filtrador por parametros all , websites React, Website Php */}
+      <ContentProject/>
     </div>
   )
 }

@@ -8,8 +8,18 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-    background-color: aliceblue;
+    background-color: #ebebeb;
 }
+
+.box{
+    width: 50vw;
+    margin: 10px;
+    padding: 50px;
+    border-radius: 15px;
+    background-color: rgb(250, 251, 252);
+    box-shadow: 0 0 2px grey;
+}
+
 
 
 
@@ -22,3 +32,35 @@ body{
     gap: 20px;
 }
 
+@media only screen and (max-width: 1220px) {
+
+    .App{
+        align-items:start;
+        height: 110vh;
+    }
+
+    .navbar-content{
+        position: fixed;
+        top: 100px;
+        right: 0;
+    }
+
+    .icon{
+        padding: 10px;
+    }
+
+    .box-card-content{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    .box{
+        width: 90%;
+    }
+
+    .box-card-content{
+        width: 100%;
+    }
+}

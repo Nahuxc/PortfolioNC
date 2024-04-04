@@ -20,8 +20,8 @@ const Profile = () => {
                 <h2 className='profile-content__FirstBox-h2'>Nahuel Alexander Coronel</h2>
                 <span className='profile-content__FirstBox-span'>Web Developer</span>
                 <div className='profile-content__FirstBox-reds'>
-                  <a href="#"><FaGithub color='black' /></a>
-                  <a href="#"><FaLinkedin color='#0077ff' /></a>
+                  <a href="https://github.com/Nahuxc" target='_blank'><FaGithub color='black' /></a>
+                  <a href="https://www.linkedin.com/in/nahuel-coronel-09a846229/" target='_blank'><FaLinkedin color='#0077ff' /></a>
                 </div>
               </div>
               <div className='profile-content__SecondBox'>
@@ -29,21 +29,21 @@ const Profile = () => {
                       <div className='profile-content__SecondBox-dataIcon'><IoMdPhonePortrait /></div>
                       <div>
                         <span className='profile-content__SecondBox-dataSpan'>Phone</span>
-                        <p>+54 12154815</p>
+                        <p>+54 9 11 2893-9674</p>
                       </div>
                     </div>
                     <div className='profile-content__SecondBox-data'>
                       <div className='profile-content__SecondBox-dataIcon'><MdEmail /></div>
                       <div>
                         <span className='profile-content__SecondBox-dataSpan'>Email</span>
-                        <p>example@gmail.com</p>
+                        <p>coronel98nahuel@gmail.com</p>
                       </div>
                     </div>
                     <div className='profile-content__SecondBox-data'>
                       <div className='profile-content__SecondBox-dataIcon'><FaLocationDot /></div>
                       <div>
                         <span className='profile-content__SecondBox-dataSpan'>Location</span>
-                        <p>san miguel, bs as</p>
+                        <p>Rafael Calzada, Bs As</p>
                       </div>
                     </div>
               </div>

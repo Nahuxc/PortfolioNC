@@ -1,7 +1,7 @@
 import React from "react"
+
+/* Router Component */
 import Router from "./Router/Router"
-
-
 
 function App() {
 

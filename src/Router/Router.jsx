@@ -16,15 +16,15 @@ const Router = () => {
   return (
     <BrowserRouter>
         <Profile/>
-        <section className='box'>
-          <Routes>
-              <Route path='/' element={<About/>} />
-              <Route path='/About' element={<About/>} />
-              <Route path='/Skills' element={<Skills/>} />
-              <Route path='/Projects' element={<Projects/>} />
-              <Route path='/Contact' element={<Contact/>} />
-          </Routes>
-        </section>
+          <section className='box'>
+            <Routes>
+                <Route path='/' element={<About/>} />
+                <Route path='/About' element={<About/>} />
+                <Route path='/Skills' element={<Skills/>} />
+                <Route path='/Projects' element={<Projects/>} />
+                <Route path='/Contact' element={<Contact/>} />
+            </Routes>
+          </section>
         <Navbar/>
     </BrowserRouter>
   )
