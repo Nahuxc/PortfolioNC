@@ -3,8 +3,6 @@ import React, { useEffect, useState } from 'react'
 /* css */
 import "./ContentProject.css"
 
-import afaf from "../../../../assets/dvasistentesinmobiliarios.png"
-
 /* icons */
 import { FaReact } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
