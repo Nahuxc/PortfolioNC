@@ -22,7 +22,7 @@ const projectsAPI = [
       "name": "Book Store Cursos",
       "description": "Maquetado Desarrollado con el FrameWork SASS de CSS, Demuestra conocimientos en el desarrollo de diseño web y algunas funcionalidades con JS.",
       "url": "https://nahuxc.github.io/Book-Store-cursos/",
-      "img":"/assets/bookstorecourseshome.png",
+      "img":"../../../../assets/bookstorecourseshome.png",
       "technology" : ["HTML", "CSS", "JS", "SASS"],
       "categorias": "Desarrollo Web"
   },
@@ -31,7 +31,7 @@ const projectsAPI = [
     "name": "Asistentes Inmobiliarios",
     "description": "Trabajo Freelancer Registro de Usuarios y Contacto, se utilizo Php y MySql para almacenar los usuarios que se registren en la aplicacion.",
     "url": "https://asistentesinmobiliarios.com/",
-    "img":"/assets/dvasistentesinmobiliarios.png",
+    "img":"../../../../assets/dvasistentesinmobiliarios.png",
     "technology" : ["HTML", "CSS", "JS", "PHP", "MySql"],
     "categorias": "Desarrollo Web"
   }
