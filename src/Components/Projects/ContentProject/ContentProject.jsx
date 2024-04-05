@@ -43,19 +43,11 @@ const ContentProject = () => {
   const [projects, setProjects] = useState([])
   const [loading, setLoading] = useState(true)
 
-  const getData = async ()=>{
-      const dataAPI = await JSON.parse(localStorage.getItem("projects"))
+  const getData = ()=>{
+      const dataAPI = projectsAPI
       setLoading(false)
       setProjects(dataAPI)
-    } 
-
-  /* Api con localStorage */
-
-  if(!localStorage.getItem("projects")){
-    useEffect(()=>{
-      localStorage.setItem("projects", JSON.stringify(projectsAPI))
-    }, [])
-  }
+    }
 
   useEffect(()=>{
       getData()
