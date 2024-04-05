@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useLayoutEffect, useState } from 'react'
 
 /* css */
 import "./ContentProject.css"
@@ -51,14 +51,14 @@ const ContentProject = () => {
 
   /* Api con localStorage */
 
+  if(!localStorage.getItem("projects")){
+    useEffect(()=>{
+      localStorage.setItem("projects", JSON.stringify(projectsAPI))
+    }, [])
+  }
+
   useEffect(()=>{
-    localStorage.setItem("projects", JSON.stringify(projectsAPI))
-  }, [])
-
-
-
-  useEffect(()=>{
-    getData()
+      getData()
   }, [])
 
     /* loader */
