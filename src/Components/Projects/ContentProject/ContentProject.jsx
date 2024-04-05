@@ -15,6 +15,7 @@ import { FaSass } from "react-icons/fa";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { FaPhp } from "react-icons/fa";
 
+
 /* simulador de Api */
 
 const projectsAPI = [
@@ -54,7 +55,7 @@ const ContentProject = () => {
 
   useEffect(()=>{
     localStorage.setItem("projects", JSON.stringify(projectsAPI))
-  }, [projects])
+  }, [])
 
 
 
