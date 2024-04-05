@@ -3,10 +3,6 @@ import React, { useEffect, useState } from 'react'
 /* css */
 import "./ContentProject.css"
 
-/* imgs API */
-import {img1} from "../../../assets/bookstorecourseshome.png"
-import {img2} from "../../../assets/dvasistentesinmobiliarios.png"
-
 /* icons */
 import { FaReact } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
@@ -26,7 +22,7 @@ const projectsAPI = [
       "name": "Book Store Cursos",
       "description": "Maquetado Desarrollado con el FrameWork SASS de CSS, Demuestra conocimientos en el desarrollo de diseño web y algunas funcionalidades con JS.",
       "url": "https://nahuxc.github.io/Book-Store-cursos/",
-      "img": img1,
+      "img": "/assets/img/bookstorecourseshome.jpg",
       "technology" : ["HTML", "CSS", "JS", "SASS"],
       "categorias": "Desarrollo Web"
   },
@@ -35,7 +31,7 @@ const projectsAPI = [
     "name": "Asistentes Inmobiliarios",
     "description": "Trabajo Freelancer Registro de Usuarios y Contacto, se utilizo Php y MySql para almacenar los usuarios que se registren en la aplicacion.",
     "url": "https://asistentesinmobiliarios.com/",
-    "img": img2,
+    "img": "/assets/img/dvasistentesinmobiliarios.jpg",
     "technology" : ["HTML", "CSS", "JS", "PHP", "MySql"],
     "categorias": "Desarrollo Web"
   }
