@@ -3,8 +3,9 @@ import React, { useEffect, useState } from 'react'
 /* css */
 import "./ContentProject.css"
 
-import img1 from "../../../../assets/bookstorecourseshome.png"
-import img2 from "../../../../assets/dvasistentesinmobiliarios.png"
+/* imgs API */
+import {img1} from "../../../assets/bookstorecourseshome.png"
+import {img2} from "../../../assets/dvasistentesinmobiliarios.png"
 
 /* icons */
 import { FaReact } from "react-icons/fa";
@@ -34,7 +35,7 @@ const projectsAPI = [
     "name": "Asistentes Inmobiliarios",
     "description": "Trabajo Freelancer Registro de Usuarios y Contacto, se utilizo Php y MySql para almacenar los usuarios que se registren en la aplicacion.",
     "url": "https://asistentesinmobiliarios.com/",
-    "img":img2,
+    "img": img2,
     "technology" : ["HTML", "CSS", "JS", "PHP", "MySql"],
     "categorias": "Desarrollo Web"
   }
