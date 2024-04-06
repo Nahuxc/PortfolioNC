@@ -1,3 +1,15 @@
+.box-experience{
+    margin: 20px;
+    background-color: #ecebeb;
+    padding: 20px;
+}
+
+.box-experience__text-span{
+    color: #838383;
+}
+
+
+
 .box-technology-content{
     display: flex;
     justify-content: center;

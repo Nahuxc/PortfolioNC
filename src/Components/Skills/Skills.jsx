@@ -1,5 +1,6 @@
 import React from 'react'
 
+/* icons */
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
@@ -15,6 +16,7 @@ import { BiLogoMongodb } from "react-icons/bi";
 import { FaGit } from "react-icons/fa";
 import { SiVisualstudio } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
+import { MdWork } from "react-icons/md";
 
 import "./Skills.css"
 
@@ -29,8 +31,14 @@ const Skills = () => {
       {/* titulo Skills */}
       <h2>Skills</h2>
       {/* experiencia y educacion */}
-      <div>
-
+      <div className='box-experience'>
+        <h2><MdWork /> Experiencia Laboral </h2>
+        <div className='box-experience__text'>
+            <span className='box-experience__text-span'>Freelance Desarrollo Web PHP | Febrero - Marzo 2024</span>
+            <li className='box-experience__text-li'>Creacion de estructura con HTML, diseño web y responsivo mobile con CSS.</li>
+            <li className='box-experience__text-li'>Uso de JavaScript para implementar funcionalidades al cliente y uso del DOM.</li>
+            <li className='box-experience__text-li'>Uso de PHP para configurar la conexion a la base de datos MySql y poder obtener los datos enviados por el cliente a traves del formulario, y almacenarlos en la base de datos.</li>
+        </div>
       </div>
       <hr />
       <div className='box-technology'>
