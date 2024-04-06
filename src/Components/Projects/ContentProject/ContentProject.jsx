@@ -78,11 +78,11 @@ const ContentProject = () => {
                       <div className='box-img'>
                         {project.img == imgB ? (
                           <>
-                            <img src={project.img} alt="" />
+                            <img src={imgB} alt="" />
                           </>
                         ) : (
                           <>
-                            <img src={project.img} alt="" />
+                            <img src={imgA} alt="" />
                           </>
                         )
                         }
