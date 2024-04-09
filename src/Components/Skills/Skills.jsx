@@ -73,15 +73,6 @@ const Skills = () => {
               <FaPhp color='#001a7f'/>
             </div>
             <div className='skills-icon'>
-              <FaLaravel color='#ff6200' />
-            </div>
-            <div className='skills-icon'>
-              <FaSymfony />
-            </div>
-            <div className='skills-icon'>
-              <FaWordpress color='#001a7f' />
-            </div>
-            <div className='skills-icon'>
               <SiMysql />
             </div>
             <div className='skills-icon'>
