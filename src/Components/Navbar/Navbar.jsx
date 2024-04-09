@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Fragment, useState, useEffect} from 'react'
 
 /* router */
 import { NavLink } from 'react-router-dom'
@@ -8,20 +8,49 @@ import { FaRegUser } from "react-icons/fa";
 import { MdOutlineWorkOutline } from "react-icons/md";
 import { RiNewspaperLine } from "react-icons/ri";
 import { RiContactsBookLine } from "react-icons/ri";
+import { FaArrowCircleLeft } from "react-icons/fa";
 
 /* import css */
 
 import "./Navbar.css"
+import Sidebar from './Sidebar/Sidebar';
 
 const Navbar = () => {
+
+  const [matches, setMatches] = useState(
+    window.matchMedia("(min-width: 1200px)").matches
+  )
+
+  useEffect(() => {
+    window
+    .matchMedia("(min-width: 1200px)")
+    .addEventListener('change', e => setMatches( e.matches ));
+  }, []);
+
+
   return (
     <nav className='navbar'>
-        <ul className='navbar-content'>
-          <NavLink to="/About" className='icon' ><FaRegUser /> About</NavLink>
-          <NavLink to="/Skills" className='icon' ><RiNewspaperLine /> Skills</NavLink>
-          <NavLink to="/Projects" className='icon' ><MdOutlineWorkOutline /> Projects</NavLink>
-          <NavLink to="/Contact" className='icon' ><RiContactsBookLine /> Contact</NavLink>
-        </ul>
+        
+
+        {
+          !matches ? (
+            <Fragment >
+              <button className='btn-sidebar'> <FaArrowCircleLeft /> </button>
+              <Sidebar/>
+            </Fragment>
+            
+          ):
+          ( 
+            <ul className='navbar-content'>
+              <NavLink to="/About" className='icon' ><FaRegUser /> About</NavLink>
+              <NavLink to="/Skills" className='icon' ><RiNewspaperLine /> Skills</NavLink>
+              <NavLink to="/Projects" className='icon' ><MdOutlineWorkOutline /> Projects</NavLink>
+              <NavLink to="/Contact" className='icon' ><RiContactsBookLine /> Contact</NavLink>
+            </ul>
+          )
+        }
+
+
     </nav>
   )
 }

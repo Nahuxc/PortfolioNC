@@ -1,0 +1,16 @@
+
+.navbar-content-sidebar{
+    position: fixed;
+    top: 100px;
+    right: -240px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: hsla(210, 20%, 98%, 0.899);
+    box-shadow: 0 0 2px grey;
+}
+

@@ -37,3 +37,17 @@
     background-color: rgb(251, 97, 97);
     color: white;
 }
+
+
+.btn-sidebar{
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    text-align: center;
+    font-size: 50px;
+    background: none;
+    color: hsla(0, 0%, 2%, 0.76);
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
