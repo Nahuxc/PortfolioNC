@@ -21,9 +21,7 @@ const Sidebar = () => {
     if(btn === false){
       sidebar.current.classList.add("active")
       setBtn(true)
-      console.log("activo");
     }else{
-      console.log("desactivado");
       sidebar.current.classList.remove("active")
       setBtn(false)
     }
