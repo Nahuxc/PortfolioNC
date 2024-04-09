@@ -12,5 +12,23 @@
     text-align: center;
     background-color: hsla(210, 20%, 98%, 0.899);
     box-shadow: 0 0 2px grey;
+
+    transition: all 500ms;
 }
 
+.btn-sidebar{
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    text-align: center;
+    font-size: 50px;
+    background: none;
+    color: hsla(0, 0%, 2%, 0.76);
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.active{
+    right: 0;
+}

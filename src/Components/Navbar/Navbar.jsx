@@ -8,7 +8,7 @@ import { FaRegUser } from "react-icons/fa";
 import { MdOutlineWorkOutline } from "react-icons/md";
 import { RiNewspaperLine } from "react-icons/ri";
 import { RiContactsBookLine } from "react-icons/ri";
-import { FaArrowCircleLeft } from "react-icons/fa";
+
 
 /* import css */
 
@@ -34,11 +34,7 @@ const Navbar = () => {
 
         {
           !matches ? (
-            <Fragment >
-              <button className='btn-sidebar'> <FaArrowCircleLeft /> </button>
               <Sidebar/>
-            </Fragment>
-            
           ):
           ( 
             <ul className='navbar-content'>
