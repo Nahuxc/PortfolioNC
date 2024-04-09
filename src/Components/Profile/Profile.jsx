@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 /* icons */
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
@@ -12,7 +12,7 @@ import "./Profile.css"
 
 const Profile = () => {
   return (
-    <div>
+    <Fragment>
 
         <div className='profile-content'>
               {/* objetos */}
@@ -51,7 +51,7 @@ const Profile = () => {
                 <button className='btnDownloadcv'>Download CV</button>
               </div>
         </div>
-    </div>
+    </Fragment>
   )
 }
 

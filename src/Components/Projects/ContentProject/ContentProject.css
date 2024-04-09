@@ -22,7 +22,7 @@
 .box-card-content_texts{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 10px;
 }
 
 .box-card-content{
@@ -38,6 +38,7 @@
 .box-card-content_texts-icons{
     display: flex;
     flex-wrap: wrap;
+    margin: 10px 0px;
 }
 
 
