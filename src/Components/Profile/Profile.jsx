@@ -3,7 +3,6 @@ import React, { Fragment } from 'react'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { IoMdPhonePortrait } from "react-icons/io";
-import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 import cv from "../../../public/assets/CV-DesarrolloWeb-Nahuel-Alexander-Coronel-2024-03-24.pdf"
@@ -39,13 +38,6 @@ const Profile = () => {
                       <div>
                         <span className='profile-content__SecondBox-dataSpan'>Email</span>
                         <p>coronel98nahuel@gmail.com</p>
-                      </div>
-                    </div>
-                    <div className='profile-content__SecondBox-data'>
-                      <div className='profile-content__SecondBox-dataIcon'><FaLocationDot /></div>
-                      <div>
-                        <span className='profile-content__SecondBox-dataSpan'>Location</span>
-                        <p>Bs As</p>
                       </div>
                     </div>
               </div>
