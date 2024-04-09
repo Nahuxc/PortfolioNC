@@ -1,4 +1,4 @@
-import React, {Fragment, useState, useEffect} from 'react'
+import React, {useState, useEffect} from 'react'
 
 /* router */
 import { NavLink } from 'react-router-dom'
@@ -30,13 +30,12 @@ const Navbar = () => {
 
   return (
     <nav className='navbar'>
-        
 
         {
           !matches ? (
               <Sidebar/>
           ):
-          ( 
+          (
             <ul className='navbar-content'>
               <NavLink to="/About" className='icon' ><FaRegUser /> About</NavLink>
               <NavLink to="/Skills" className='icon' ><RiNewspaperLine /> Skills</NavLink>

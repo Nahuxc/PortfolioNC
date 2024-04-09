@@ -27,6 +27,7 @@ const projectsAPI = [
       "description": "Maquetado Desarrollado con el FrameWork SASS de CSS, Demuestra conocimientos en el desarrollo de diseño web y algunas funcionalidades con JS.",
       "url": "https://nahuxc.github.io/Book-Store-cursos/",
       "img": imgB,
+      "code": "https://github.com/Nahuxc/Book-Store-cursos" ,
       "technology" : ["HTML", "CSS", "JS", "SASS"],
       "categorias": "Desarrollo Web"
   },
@@ -35,6 +36,7 @@ const projectsAPI = [
     "name": "Asistentes Inmobiliarios",
     "description": "Trabajo Freelancer Registro de Usuarios y Contacto, se utilizo Php y MySql para almacenar los usuarios que se registren en la aplicacion.",
     "url": "https://asistentesinmobiliarios.com/",
+    "code": "https://github.com/Nahuxc/inmobiliaria-work" ,
     "img": imgA,
     "technology" : ["HTML", "CSS", "JS", "PHP", "MySql"],
     "categorias": "Desarrollo Web"
@@ -78,11 +80,11 @@ const ContentProject = () => {
                       <div className='box-img'>
                         {project.img == imgB ? (
                           <>
-                            <img src={imgB} alt="" />
+                            <img src={imgB} alt="bookstorecourseshome" />
                           </>
                         ) : (
                           <>
-                            <img src={imgA} alt="" />
+                            <img src={imgA} alt="dvasistentesinmobiliarios" />
                           </>
                         )
                         }
@@ -101,7 +103,7 @@ const ContentProject = () => {
                           <p>{project.description}</p>
                         </div>
                         <div className='box-card-content_texts-links'>
-                          <a href='' target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
+                          <a href={project.code} target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
                           <a href={project.url} target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
                         </div>
                       </div>

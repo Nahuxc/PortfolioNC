@@ -68,6 +68,7 @@
 }
 
 .btnDownloadcv{
+    text-decoration: none;
     font-weight: 600;
     border: none;
     padding: 10px;

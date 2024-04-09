@@ -6,6 +6,8 @@ import { IoMdPhonePortrait } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
+import cv from "../../../public/assets/CV-DesarrolloWeb-Nahuel-Alexander-Coronel-2024-03-24.pdf"
+
 /* Import css */
 
 import "./Profile.css"
@@ -48,7 +50,7 @@ const Profile = () => {
                     </div>
               </div>
               <div>
-                <button className='btnDownloadcv'>Download CV</button>
+                <a href={cv} download="CV-DesarrolloWeb-Nahuel-Alexander-Coronel-2024-03-24.pdf" className='btnDownloadcv'>Download CV</a>
               </div>
         </div>
     </Fragment>
