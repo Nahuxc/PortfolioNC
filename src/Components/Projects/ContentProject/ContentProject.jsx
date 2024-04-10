@@ -4,18 +4,21 @@ import React from 'react'
 import "./ContentProject.css"
 
 
-import imgB from "../../../../img/bookstorecourseshome.jpg"
 import imgA from "../../../../img/dvasistentesinmobiliarios.jpg"
+import imgB from "../../../../img/bookstorecourseshome.jpg"
+import imgC from "../../../../img/api-articles.png"
 
 /* icons */
 import { FaCss3Alt } from "react-icons/fa";
-import { SiJavascript } from "react-icons/si";
+import { SiJavascript, SiNodedotjs } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 import { FaSass } from "react-icons/fa";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { FaPhp } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
+import { DiNodejs } from "react-icons/di";
+import { BiLogoMongodb } from "react-icons/bi";
 
 
 
@@ -71,6 +74,29 @@ const ContentProject = () => {
             <div className='box-card-content_texts-links'>
               <a href="https://github.com/Nahuxc/Book-Store-cursos" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
               <a href="https://nahuxc.github.io/Book-Store-cursos/" target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* card */}
+      <div className='box-card'>
+        <div className='box-card-content'>
+          <div className='box-img'>
+            <img src={imgC} alt="bookstorecourseshome" />
+          </div>
+          <div className='box-card-content_texts'>
+            <div className='box-card-content_texts-icons'>
+              <li className='card-icon'> <SiJavascript color='#b5a900' /> </li>
+              <li className='card-icon'> <DiNodejs color='#00a42c' /> </li>
+              <li className='card-icon'> <BiLogoMongodb color='#00a42c' /> </li>
+            </div>
+            <div>
+              <h2>Api Rest Blog</h2>
+              <span className='text-span-card'>Backend | Servidor</span>
+              <p>Esta Api Rest Creada con Express JS y MongoDB como base de datos, Permite Buscar y obtener datos, crear nuevos datos, editar, subir imagenes y eliminar datos. Es utilizada para un MERN Stack. </p>
+            </div>
+            <div className='box-card-content_texts-links'>
+              <a href="https://github.com/Nahuxc/Api-rest-blog" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
             </div>
           </div>
         </div>
