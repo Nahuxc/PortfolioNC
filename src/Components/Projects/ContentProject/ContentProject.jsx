@@ -7,11 +7,13 @@ import "./ContentProject.css"
 import imgA from "../../../../img/dvasistentesinmobiliarios.jpg"
 import imgB from "../../../../img/bookstorecourseshome.jpg"
 import imgC from "../../../../img/api-articles.png"
+import imgD from "../../../../img/NewsLetterProyect.png"
 
 /* icons */
 import { FaCss3Alt } from "react-icons/fa";
-import { SiJavascript, SiNodedotjs } from "react-icons/si";
+import { SiJavascript} from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 import { FaSass } from "react-icons/fa";
 import { AiOutlineGlobal } from "react-icons/ai";
@@ -97,6 +99,30 @@ const ContentProject = () => {
             </div>
             <div className='box-card-content_texts-links'>
               <a href="https://github.com/Nahuxc/Api-rest-blog" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* card */}
+      <div className='box-card'>
+        <div className='box-card-content'>
+          <div className='box-img'>
+            <img src={imgD} alt="bookstorecourseshome" />
+          </div>
+          <div className='box-card-content_texts'>
+            <div className='box-card-content_texts-icons'>
+              <li className='card-icon'> <FaReact color='#009dff' /> </li>
+              <li className='card-icon'> <DiNodejs color='#00a42c' /> </li>
+              <li className='card-icon'> <BiLogoMongodb color='#00a42c' /> </li>
+            </div>
+            <div>
+              <h2>NewsLetters Generator</h2>
+              <span className='text-span-card'> MERN | Aplicacion web ( en desarrollo... )</span>
+              <p>Este Proyecto es un MERN STACK fue creado con React Vite, Node JS, Express JS, MongoDB , Esta conectado a la "Api rest Blog". Genera noticias que el usuario cree, pudiendo tambien editarlas, eliminarlas.</p>
+            </div>
+            <div className='box-card-content_texts-links'>
+              <a href="#" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
+              <a href="#" target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
             </div>
           </div>
         </div>
