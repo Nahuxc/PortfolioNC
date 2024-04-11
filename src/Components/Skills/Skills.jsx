@@ -7,6 +7,7 @@ import { SiJavascript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaSass } from "react-icons/fa";
 import { FaPhp } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
 import { FaLaravel } from "react-icons/fa";
 import { FaSymfony } from "react-icons/fa";
 import { FaWordpress } from "react-icons/fa";
@@ -59,6 +60,9 @@ const Skills = () => {
             </div>
             <div className='skills-icon'>
               <DiNodejs color='#00a42c' />
+            </div>
+            <div className='skills-icon'>
+              <SiExpress color='#00a42c' />
             </div>
             <div className='skills-icon'>
               <BiLogoMongodb color='#00a42c' />

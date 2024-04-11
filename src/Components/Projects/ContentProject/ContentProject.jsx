@@ -21,6 +21,7 @@ import { FaPhp } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
 import { BiLogoMongodb } from "react-icons/bi";
+import { SiExpress } from "react-icons/si";
 
 
 
@@ -113,6 +114,7 @@ const ContentProject = () => {
             <div className='box-card-content_texts-icons'>
               <li className='card-icon'> <FaReact color='#009dff' /> </li>
               <li className='card-icon'> <DiNodejs color='#00a42c' /> </li>
+              <li className='card-icon'> <SiExpress color='#00a42c' /> </li>
               <li className='card-icon'> <BiLogoMongodb color='#00a42c' /> </li>
             </div>
             <div>
