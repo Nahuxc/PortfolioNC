@@ -123,7 +123,7 @@ const ContentProject = () => {
               <p>Este Proyecto es un MERN STACK fue creado con React Vite, Node JS, Express JS, MongoDB , Esta conectado a la "Api rest Blog". Genera noticias que el usuario cree, pudiendo tambien editarlas, eliminarlas.</p>
             </div>
             <div className='box-card-content_texts-links'>
-              <a href="#" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
+              <a href="https://github.com/Nahuxc/NewsLetters-MERN" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
               <a href="#" target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
             </div>
           </div>
