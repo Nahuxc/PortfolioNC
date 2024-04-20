@@ -91,6 +91,7 @@ const ContentProject = () => {
             <div className='box-card-content_texts-icons'>
               <li className='card-icon'> <SiJavascript color='#b5a900' /> </li>
               <li className='card-icon'> <DiNodejs color='#00a42c' /> </li>
+              <li className='card-icon'> <SiExpress color='#00a42c' /> </li>
               <li className='card-icon'> <BiLogoMongodb color='#00a42c' /> </li>
             </div>
             <div>
@@ -100,6 +101,7 @@ const ContentProject = () => {
             </div>
             <div className='box-card-content_texts-links'>
               <a href="https://github.com/Nahuxc/Api-rest-blog" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
+              <a href="https://api-rest-blog-wc32.onrender.com/api/articles" target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
             </div>
           </div>
         </div>
@@ -124,7 +126,7 @@ const ContentProject = () => {
             </div>
             <div className='box-card-content_texts-links'>
               <a href="https://github.com/Nahuxc/NewsLetters-MERN" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
-              <a href="#" target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
+              <a href="https://newslettersgenerator.netlify.app/" target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
             </div>
           </div>
         </div>
