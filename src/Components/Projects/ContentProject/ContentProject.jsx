@@ -8,9 +8,11 @@ import imgA from "../../../../img/dvasistentesinmobiliarios.jpg"
 import imgB from "../../../../img/bookstorecourseshome.jpg"
 import imgC from "../../../../img/api-articles.png"
 import imgD from "../../../../img/NewsLettersGenerator.png"
+import imgE from "../../../../img/chatapp.png"
 
 /* icons */
 import { FaCss3Alt } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 import { SiJavascript} from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
@@ -34,23 +36,24 @@ const ContentProject = () => {
       <div className='box-card'>
         <div className='box-card-content'>
           <div className='box-img'>
-            <img src={imgC} alt="bookstorecourseshome" />
+            <img src={imgE} alt="bookstorecourseshome" />
           </div>
           <div className='box-card-content_texts'>
             <div className='box-card-content_texts-icons'>
-              <li className='card-icon'> <SiJavascript color='#b5a900' /> </li>
+              <li className='card-icon'> <FaReact color='#009dff' /> </li>
+              <li className='card-icon'> <SiTailwindcss color='#009dff' /> </li>
               <li className='card-icon'> <DiNodejs color='#00a42c' /> </li>
               <li className='card-icon'> <SiExpress color='#00a42c' /> </li>
               <li className='card-icon'> <BiLogoMongodb color='#00a42c' /> </li>
             </div>
             <div>
-              <h2>Api Rest Blog</h2>
-              <span className='text-span-card'>Backend | Servidor</span>
-              <p>Esta Api Rest Creada con Express JS y MongoDB como base de datos, Permite Buscar y obtener datos, crear nuevos datos, editar, subir imagenes y eliminar datos. Es utilizada para un MERN Stack. </p>
+              <h2>Chat App</h2>
+              <span className='text-span-card'> MERN | Aplicacion web (en desarollo...) </span>
+              <p>Este Proyecto MERN integra React JS + Vite, Tailwind CSS, Node JS, Express JS y MongoDB. Es una aplicacion para chatear entre usuarios unicos y conversaciones en tiempo real con una API REST integrada para almacenar datos, usuarios y chats.</p>
             </div>
             <div className='box-card-content_texts-links'>
-              <a href="https://github.com/Nahuxc/Api-rest-blog" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
-              <a href="https://api-rest-blog-wc32.onrender.com/api/articles" target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
+              <a href="https://github.com/Nahuxc/Chat-app" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
+              <a href="#" target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
             </div>
           </div>
         </div>
@@ -76,6 +79,31 @@ const ContentProject = () => {
             <div className='box-card-content_texts-links'>
               <a href="https://github.com/Nahuxc/NewsLetters-MERN" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
               <a href="https://newslettersgenerator.netlify.app/" target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* card */}
+      <div className='box-card'>
+        <div className='box-card-content'>
+          <div className='box-img'>
+            <img src={imgC} alt="bookstorecourseshome" />
+          </div>
+          <div className='box-card-content_texts'>
+            <div className='box-card-content_texts-icons'>
+              <li className='card-icon'> <SiJavascript color='#b5a900' /> </li>
+              <li className='card-icon'> <DiNodejs color='#00a42c' /> </li>
+              <li className='card-icon'> <SiExpress color='#00a42c' /> </li>
+              <li className='card-icon'> <BiLogoMongodb color='#00a42c' /> </li>
+            </div>
+            <div>
+              <h2>Api Rest Blog</h2>
+              <span className='text-span-card'>Backend | Servidor</span>
+              <p>Esta Api Rest Creada con Express JS y MongoDB como base de datos, Permite Buscar y obtener datos, crear nuevos datos, editar, subir imagenes y eliminar datos. Es utilizada para un MERN Stack. </p>
+            </div>
+            <div className='box-card-content_texts-links'>
+              <a href="https://github.com/Nahuxc/Api-rest-blog" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
+              <a href="https://api-rest-blog-wc32.onrender.com/api/articles" target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
             </div>
           </div>
         </div>
