@@ -36,32 +36,6 @@ const ContentProject = () => {
       <div className='box-card'>
         <div className='box-card-content'>
           <div className='box-img'>
-            <img src={imgE} alt="bookstorecourseshome" />
-          </div>
-          <div className='box-card-content_texts'>
-            <div className='box-card-content_texts-icons'>
-              <li className='card-icon'> <FaReact color='#009dff' /> </li>
-              <li className='card-icon'> <SiTailwindcss color='#009dff' /> </li>
-              <li className='card-icon'> <DiNodejs color='#00a42c' /> </li>
-              <li className='card-icon'> <SiExpress color='#00a42c' /> </li>
-              <li className='card-icon'> <BiLogoMongodb color='#00a42c' /> </li>
-            </div>
-            <div>
-              <h2>Chat App</h2>
-              <span className='text-span-card'> MERN | Aplicacion web (en desarollo...) </span>
-              <p>Este Proyecto MERN integra React JS + Vite, Tailwind CSS, Node JS, Express JS y MongoDB. Es una aplicacion para chatear entre usuarios unicos y conversaciones en tiempo real con una API REST integrada para almacenar datos, usuarios y chats.</p>
-            </div>
-            <div className='box-card-content_texts-links'>
-              <a href="https://github.com/Nahuxc/Chat-app" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
-              <a href="#" target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* card */}
-      <div className='box-card'>
-        <div className='box-card-content'>
-          <div className='box-img'>
             <img src={imgD} alt="bookstorecourseshome" />
           </div>
           <div className='box-card-content_texts'>
