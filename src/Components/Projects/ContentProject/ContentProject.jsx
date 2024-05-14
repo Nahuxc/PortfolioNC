@@ -8,7 +8,6 @@ import imgA from "../../../../img/dvasistentesinmobiliarios.jpg"
 import imgB from "../../../../img/bookstorecourseshome.jpg"
 import imgC from "../../../../img/api-articles.png"
 import imgD from "../../../../img/NewsLettersGenerator.png"
-import imgE from "../../../../img/chatapp.png"
 
 /* icons */
 import { FaCss3Alt } from "react-icons/fa";

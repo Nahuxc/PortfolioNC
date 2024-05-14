@@ -11,6 +11,7 @@ import { SiExpress } from "react-icons/si";
 import { FaLaravel } from "react-icons/fa";
 import { FaSymfony } from "react-icons/fa";
 import { FaWordpress } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
 import { SiMysql } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
@@ -51,6 +52,9 @@ const Skills = () => {
             </div>
             <div className='skills-icon'>
               <FaCss3Alt color='#00aaff' />
+            </div>
+            <div className='skills-icon'>
+              <SiTailwindcss color='#00aaff' />
             </div>
             <div className='skills-icon'>
               <SiJavascript color='#c7c100' />
