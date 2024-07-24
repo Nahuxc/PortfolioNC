@@ -42,7 +42,7 @@ const Profile = () => {
                     </div>
               </div>
               <div>
-                <a href={cv} download="CV-DesarrolloWeb-Nahuel-Alexander-Coronel-2024-03-24.pdf" className='btnDownloadcv'>Download CV</a>
+                <a href={cv} download="CV-Nahuel-Alexander-Coronel.pdf" className='btnDownloadcv'>Download CV</a>
               </div>
         </div>
     </Fragment>
