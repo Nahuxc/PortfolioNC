@@ -82,7 +82,7 @@ const ContentProject = () => {
         </div>
       </div>
       {/* card */}
-      <div className='box-card'>
+      {/* <div className='box-card'>
         <div className='box-card-content'>
           <div className='box-img'>
             <img src={imgA} alt="bookstorecourseshome" />
@@ -106,7 +106,7 @@ const ContentProject = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* card */}
       <div className='box-card'>
         <div className='box-card-content'>
