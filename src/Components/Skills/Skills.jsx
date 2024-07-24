@@ -36,7 +36,7 @@ const Skills = () => {
       <div className='box-experience'>
         <h2><MdWork /> Experiencia Laboral </h2>
         <div className='box-experience__text'>
-            <span className='box-experience__text-span'>Freelance Desarrollo Web PHP | Febrero - Marzo 2024</span>
+            <span className='box-experience__text-span'>Freelance Desarrollo Web PHP | Enero - Febrero 2024</span>
             <li className='box-experience__text-li'>Creacion de estructura con HTML, diseño web y responsivo mobile con CSS.</li>
             <li className='box-experience__text-li'>Uso de JavaScript para implementar funcionalidades al cliente y uso del DOM.</li>
             <li className='box-experience__text-li'>Uso de PHP para configurar la conexion a la base de datos MySql y poder obtener los datos enviados por el cliente a traves del formulario, y almacenarlos en la base de datos.</li>
