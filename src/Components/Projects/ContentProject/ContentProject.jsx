@@ -95,8 +95,8 @@ const ContentProject = () => {
               <li className='card-icon'> <SiJavascript color='#b5a900' /> </li>
             </div>
             <div>
-              <h2>Video Juegos Web (En desarrollo)</h2>
-              <span className='text-span-card'>Desarrollo Web PHP</span>
+              <h2>Video Juegos Web </h2>
+              <span className='text-span-card'>Desarrollo Web PHP (En desarrollo)</span>
               <p>WEB con PHP y MySQL para registro y logueo de usuarios, basado en video juegos para que los usuarios puedan crear sus opiniones o posteos.</p>
             </div>
             <div className='box-card-content_texts-links'>
