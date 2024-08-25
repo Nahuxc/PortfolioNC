@@ -40,7 +40,7 @@ const Navbar = () => {
               <NavLink to="/About" className='icon' ><FaRegUser /> About</NavLink>
               <NavLink to="/Skills" className='icon' ><RiNewspaperLine /> Skills</NavLink>
               <NavLink to="/Projects" className='icon' ><MdOutlineWorkOutline /> Projects</NavLink>
-              <NavLink to="/Contact" className='icon' ><RiContactsBookLine /> Contact</NavLink>
+              {/* <NavLink to="/Contact" className='icon' ><RiContactsBookLine /> Contact</NavLink> */}
             </ul>
           )
         }
