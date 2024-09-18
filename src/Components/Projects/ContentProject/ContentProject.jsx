@@ -47,7 +47,7 @@ const ContentProject = () => {
             <div>
               <h2>NewsLetters Generator</h2>
               <span className='text-span-card'> MERN | Aplicacion web </span>
-              <p>Este Proyecto es un MERN STACK fue creado con React Vite, Node JS, Express JS, MongoDB , Esta conectado a la "Api rest Blog". Genera noticias que el usuario cree, pudiendo tambien editarlas, eliminarlas.</p>
+              <p> MERN STACK creado con React Vite, Node JS, Express JS, MongoDB , Esta conectado a la "Api rest Blog". Un CRUD que Genera noticias que el usuario desee, pudiendo tambien editarlas, eliminarlas y publicarlas para el resto de personas.</p>
             </div>
             <div className='box-card-content_texts-links'>
               <a href="https://github.com/Nahuxc/NewsLetters-MERN" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
@@ -96,8 +96,8 @@ const ContentProject = () => {
             </div>
             <div>
               <h2>Video Juegos Web </h2>
-              <span className='text-span-card'>Desarrollo Web PHP (En desarrollo)</span>
-              <p>WEB con PHP y MySQL para registro y logueo de usuarios, basado en video juegos para que los usuarios puedan crear sus opiniones o posteos.</p>
+              <span className='text-span-card'>Desarrollo Web PHP</span>
+              <p>WEB con PHP y MySQL creando un CRUD para registro y logueo de usuarios, basado en video juegos para que los usuarios puedan publicar sus posteos, editarlos o eliminarlos.</p>
             </div>
             <div className='box-card-content_texts-links'>
               <a href="https://github.com/Nahuxc/videogamesWeb" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>

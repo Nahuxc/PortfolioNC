@@ -37,9 +37,9 @@ const Navbar = () => {
           ):
           (
             <ul className='navbar-content'>
-              <NavLink to="/About" className='icon' ><FaRegUser /> About</NavLink>
-              <NavLink to="/Skills" className='icon' ><RiNewspaperLine /> Skills</NavLink>
-              <NavLink to="/Projects" className='icon' ><MdOutlineWorkOutline /> Projects</NavLink>
+              <NavLink to="/About" className='icon' ><FaRegUser /> Sobre Mi</NavLink>
+              <NavLink to="/Skills" className='icon' ><RiNewspaperLine /> Experiencia</NavLink>
+              <NavLink to="/Projects" className='icon' ><MdOutlineWorkOutline /> Proyectos</NavLink>
               {/* <NavLink to="/Contact" className='icon' ><RiContactsBookLine /> Contact</NavLink> */}
             </ul>
           )

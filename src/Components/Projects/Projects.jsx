@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div>
       <div>
-        <h2>Projects</h2>
+        <h2>Proyectos</h2>
       </div>
       {/* filtrador por parametros all , websites React, Website Php */}
       <ContentProject/>

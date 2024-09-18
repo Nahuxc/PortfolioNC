@@ -32,10 +32,9 @@ const Sidebar = () => {
       <Fragment>
         <button onClick={activeSidebar} className='btn-sidebar'> <FaArrowCircleLeft /> </button>
         <ul ref={sidebar} className='navbar-content-sidebar'>
-            <NavLink to="/About" className='icon' ><FaRegUser /> About</NavLink>
-            <NavLink to="/Skills" className='icon' ><RiNewspaperLine /> Skills</NavLink>
-            <NavLink to="/Projects" className='icon' ><MdOutlineWorkOutline /> Projects</NavLink>
-            <NavLink to="/Contact" className='icon' ><RiContactsBookLine /> Contact</NavLink>
+            <NavLink to="/About" className='icon' ><FaRegUser /> Sobre Mi</NavLink>
+            <NavLink to="/Skills" className='icon' ><RiNewspaperLine /> Experiencia</NavLink>
+            <NavLink to="/Projects" className='icon' ><MdOutlineWorkOutline /> Proyectos</NavLink>
         </ul>
       </Fragment>
   )

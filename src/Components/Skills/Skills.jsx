@@ -31,7 +31,7 @@ const Skills = () => {
     <div>
 
       {/* titulo Skills */}
-      <h2>Skills</h2>
+      <h2>Experiencia / Habilidades</h2>
       {/* experiencia y educacion */}
       <div className='box-experience'>
         <h2><MdWork /> Experiencia Laboral </h2>
@@ -45,7 +45,7 @@ const Skills = () => {
       <hr />
       <div className='box-technology'>
         <div className='box-technology-content'>
-          <h2>technologies</h2>
+          <h2>Manejo Las Siguientes Tecnologias:</h2>
           <div className='box-technology-content__icon'>
             <div className='skills-icon'>
               <FaHtml5 color='#ff6200' />
@@ -57,11 +57,23 @@ const Skills = () => {
               <SiTailwindcss color='#00aaff' />
             </div>
             <div className='skills-icon'>
+              <FaSass color='#fb7aff'/>
+            </div>
+            <div className='skills-icon'>
+              <FaBootstrap color='#740078'/>
+            </div>
+            <div className='skills-icon'>
+              <FaPhp color='#001a7f'/>
+            </div>
+            <div className='skills-icon'>
               <SiJavascript color='#c7c100' />
             </div>
             <div className='skills-icon'>
               <FaReact color='#00aaff' />
             </div>
+           {/*  <div className='skills-icon'>
+                <FaLaravel color='#ff6200'/>
+            </div> */}
             <div className='skills-icon'>
               <DiNodejs color='#00a42c' />
             </div>
@@ -70,15 +82,6 @@ const Skills = () => {
             </div>
             <div className='skills-icon'>
               <BiLogoMongodb color='#00a42c' />
-            </div>
-            <div className='skills-icon'>
-              <FaSass color='#fb7aff'/>
-            </div>
-            <div className='skills-icon'>
-              <FaBootstrap color='#740078'/>
-            </div>
-            <div className='skills-icon'>
-              <FaPhp color='#001a7f'/>
             </div>
             <div className='skills-icon'>
               <SiMysql />
