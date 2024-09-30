@@ -36,10 +36,10 @@ const Skills = () => {
       <div className='box-experience'>
         <h2><MdWork /> Experiencia Laboral </h2>
         <div className='box-experience__text'>
-            <span className='box-experience__text-span'>Freelance Desarrollo Web PHP | Enero - Febrero 2024</span>
-            <li className='box-experience__text-li'>Creacion de estructura con HTML, diseño web y responsivo mobile con CSS.</li>
-            <li className='box-experience__text-li'>Uso de JavaScript para implementar funcionalidades al cliente y uso del DOM.</li>
-            <li className='box-experience__text-li'>Uso de PHP para configurar la conexion a la base de datos MySql y poder obtener los datos enviados por el cliente a traves del formulario, y almacenarlos en la base de datos.</li>
+            <span className='box-experience__text-span'>Desarrollo Web PHP | Enero - Febrero 2024</span>
+            <li className='box-experience__text-li'>Se creo una Landing Page para que los usuarios puedan Visualizar Hogares o Terrenos disponibles de la inmobiliaria, conocer sobre los vendedores y facilitar el contacto directo del comprador con el vendedor.</li>
+            <li className='box-experience__text-li'>Implementacion del maquetado web con html css y js para la creacion de la interfaz de usuario y secciones.</li>
+            <li className='box-experience__text-li'> Se creo una Base de datos en MySQL y el manejo de datos con PHP.</li>
         </div>
       </div>
       <hr />
