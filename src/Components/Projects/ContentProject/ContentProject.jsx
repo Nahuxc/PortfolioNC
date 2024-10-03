@@ -54,8 +54,8 @@ const ContentProject = () => {
                 el administrador tambien gestiona los datos de los trabajadores para controlar y mantener un orden de lo que realizan al igual que calcular sus sueldos a pagar por los trabajos realizados y demas funcionalidades manejadas con PHP y MySQL como base de datos.</p>
             </div>
             <div className='box-card-content_texts-links'>
-              <a href="https://github.com/Nahuxc/videogamesWeb" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
-              <a href="" target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
+              <a href="https://github.com/Nahuxc/Sistema-comercial" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
+              <a href="#" target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
             </div>
           </div>
         </div>

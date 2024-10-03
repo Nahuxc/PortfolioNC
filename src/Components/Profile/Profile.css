@@ -1,8 +1,8 @@
 .profile-content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    height: 400px;
     padding: 35px 5px;
     margin: 20px 0px;
     border-radius: 20px;
