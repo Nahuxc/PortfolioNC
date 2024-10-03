@@ -13,8 +13,7 @@ body{
 
 .box{
     width: 50vw;
-    height: 85vh;
-    margin: 10px;
+    margin: 20px 0px 40px 0px;
     padding: 50px;
     border-radius: 15px;
     background-color: rgb(250, 251, 252);
@@ -46,11 +45,6 @@ body{
 }
 
 @media only screen and (max-width: 1220px) {
-
-    .App{
-        align-items:start;
-        height: 110vh;
-    }
 
     .box-technology-content__icon{
         width: 100%;
@@ -87,10 +81,18 @@ body{
 
     .box{
         width: 90%;
+        margin-left: 20px;
         padding: 20px;
     }
 
-    .box-card-content{
-        width: 100%;
+}
+
+@media only screen and (max-width: 590px) {
+
+    .box{
+        width: 90%;
+        margin-left: 0px;
+        padding: 20px;
     }
+
 }
