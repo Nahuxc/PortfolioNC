@@ -8,7 +8,7 @@ import imgA from "../../../../img/VIDEO-GAMES-WEB.png"
 import imgB from "../../../../img/bookstorecourseshome.jpg"
 import imgC from "../../../../img/api-articles.png"
 import imgD from "../../../../img/NewsLettersGenerator.png"
-import imgE from "../../../../img/sistema comercial.png"
+import imgE from "../../../../img/panelUsuario.png"
 
 /* icons */
 import { FaCss3Alt } from "react-icons/fa";
@@ -46,15 +46,23 @@ const ContentProject = () => {
               <li className='card-icon'> <SiJavascript color='#b5a900' /> </li>
             </div>
             <div className='box-card-content-data'>
-              <h2>Sistema Comercial </h2>
+              <h2>Inmobiliaria </h2>
               <span className='text-span-card'>Desarrollo Web PHP</span>
-              <p>Creado con HTML, CSS, JAVASCRIPT, PHP utilizando el patron de diseño MVC Y MySQL. Este sistema comercial tiene como Objetivo poder gestionar de manera mas ordenada y sencilla los clientes y sus pedidos.
-                Utiliza un gestor de productos para reponer stock o agregar nuevos o eliminarlos.
-                Se agregan cargos a los empleados para que gestionen sus tareas como vendedores para armar los pedidos y atender clientes o repositores para tomar los pedidos y hacer las entregas.
-                el administrador tambien gestiona los datos de los trabajadores para controlar y mantener un orden de lo que realizan al igual que calcular sus sueldos a pagar por los trabajos realizados y demas funcionalidades manejadas con PHP y MySQL como base de datos.</p>
+              <p>Esta web cuenta con vista para usuario y administrador, la idea de la web es que los usuarios puedan interactuar con el producto y que sea facil contactar con asesores.
+              Cuenta con Diseño web Responsivo para celulares
+              Se implemento el patron de diseño MVC para crear el proyecto y mantener un orden correcto con el manejo del codigo.
+              Secciones de vista para el usuario: inicio, lotes, sobre nosotros, formulario de contacto.
+              Seccion de vista de detalle de producto: Integra un slider de imagenes, Informacion del producto a vender, Boton de contacto.
+              Seccion para el administrador para iniciar sesion.
+              navegacion desplegable y adaptable a telefonos moviles.
+              Filtro de busqueda para los lotes.
+              modo oscuro y modo blanco para la web.
+              Funciones para el administrador CRUD: Manejo de registro de los usuarios por la web, Modificacion/actualizacion de lotes, Eliminacion de lotes, Crear nuevas publicaciones.
+              Base de datos creada con MySQL.
+              Integracion de PDO para evitar inyecciones SQL ( seguridad con el manejo de datos ).</p>
             </div>
             <div className='box-card-content_texts-links'>
-              <a href="https://github.com/Nahuxc/Sistema-comercial" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
+              <a href="https://github.com/Nahuxc/InmobiliariaWeb" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
               <a href="#" target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
             </div>
           </div>

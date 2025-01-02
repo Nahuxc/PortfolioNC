@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa6";
 import { IoMdPhonePortrait } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 
-import cv from "../../../public/assets/Cv-Nahuel-Alexander-Coronel-29-09-2024.pdf"
+import cv from "../../../public/assets/Cv-Nahuel-Alexander-Coronel-DesarrolladorFullStack.pdf"
 
 /* Import css */
 
