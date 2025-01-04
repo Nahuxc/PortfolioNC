@@ -36,7 +36,7 @@ const ContentProject = () => {
       <div className='box-card'>
         <div className='box-card-content'>
           <div className='box-img'>
-            <img src={imgE} alt="video-games-web" />
+            <img src={imgE} alt="Inmobiliaria" />
           </div>
           <div className='box-card-content_texts'>
             <div className='box-card-content_texts-icons'>
@@ -63,7 +63,7 @@ const ContentProject = () => {
             </div>
             <div className='box-card-content_texts-links'>
               <a href="https://github.com/Nahuxc/InmobiliariaWeb" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
-              <a href="#" target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
+              <a href="https://github.com/Nahuxc/InmobiliariaWeb" target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@ const ContentProject = () => {
       <div className='box-card'>
         <div className='box-card-content'>
           <div className='box-img'>
-            <img src={imgD} alt="bookstorecourseshome" />
+            <img src={imgD} alt="NewsLetters-Generator" />
           </div>
           <div className='box-card-content_texts'>
             <div className='box-card-content_texts-icons'>
@@ -97,7 +97,7 @@ const ContentProject = () => {
       <div className='box-card'>
         <div className='box-card-content'>
           <div className='box-img'>
-            <img src={imgC} alt="bookstorecourseshome" />
+            <img src={imgC} alt="Api-Rest-Blog" />
           </div>
           <div className='box-card-content_texts'>
             <div className='box-card-content_texts-icons'>
@@ -138,7 +138,7 @@ const ContentProject = () => {
             </div>
             <div className='box-card-content_texts-links'>
               <a href="https://github.com/Nahuxc/videogamesWeb" target='_blank' className='card-iconlink'><FaCode color='#009dff' /></a>
-              <a href="" target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
+              <a href="https://github.com/Nahuxc/videogamesWeb" target='_blank' className='card-iconlink'><AiOutlineGlobal color='#009dff' /></a>
             </div>
           </div>
         </div>
